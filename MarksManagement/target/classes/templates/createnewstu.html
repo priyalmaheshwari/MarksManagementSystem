@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org" style="height : 100%">
+
+  <head>
+   
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  </head>
+
+  <body style=" background-size:100% 100%; background-image: linear-gradient(#5f9fed,#d5e3f5)">
+   <div class="container" style="text-align : center; margin-top : 2%">
+	
+	<form action="createNew">
+		
+		  <div class="col-auto" >
+		    <label class="col-form-label">Enter Student Roll No.</label>
+		  </div>
+		    <input class="form-control" type="text" name="rollno" style="width : 30%; margin : 0 auto">
+		  <br>
+		   <div class="col-auto">
+		    <label class="col-form-label">Enter Student Name</label>
+		  </div>
+		    <input class="form-control" type="text" name="name" style="width : 30%; margin : 0 auto">
+			<br>
+		   <div class="col-auto" >
+		    <label class="col-form-label">Enter Physics Marks</label>
+		  </div>
+		    <input class="form-control" type="text" name="physics" style="width : 30%; margin : 0 auto">
+		  <br>
+		   <div class="col-auto">
+		    <label class="col-form-label">Enter Chemistry Marks</label>
+		  </div>
+		    <input class="form-control" type="text" name="chemistry" style="width : 30%; margin : 0 auto">
+		  <br>
+		   <div class="col-auto">
+		    <label class="col-form-label">Enter Maths Marks</label>
+		  </div>
+		    <input class="form-control" type="text" name="maths" style="width : 30%; margin : 0 auto">
+		  <br>
+		  <div style="text-align : center"><input type="submit" value="Add" class="btn btn-primary"></div>
+		 
+	</form>
+	
+	
+   </div>
+  
+  </body>
+
+</html>
