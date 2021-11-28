@@ -20,7 +20,6 @@ Sample table below:
 |id  | pass    |
 |----|---------|
 |1   | abc@abc |
-|----|---------|
 |2   | abc123  |
 
 
