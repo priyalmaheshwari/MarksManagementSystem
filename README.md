@@ -16,8 +16,8 @@ Three Tables are used
 // This table entries should be inserted beforehand of the starting of this project, as the teachers have to be already signed up. And we just get the option of signing in
 for the teachers, not sign up.
 Sample table below:
-|----|---------|
+
 |1   | abc@abc |
 |----|---------|
 |2   | abc123  |
-|----|---------|
+
